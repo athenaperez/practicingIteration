@@ -12,21 +12,41 @@
 // }
 
 
+// ______________________________
+//INCREMEMNT BY 10
+console.log("______________________________")
+console.log("INCREMENT BY 10");
+console.log("______________________________")
 
-// INCREMENT BY 10
-
-// for (var counter = 5; counter <= 120; counter += 10) {
-//    console.log( counter )
-// }
 
 
+for (var counter = 5; counter <= 120; counter += 10) {
+   console.log( counter )
+}
+
+
+
+
+
+// ______________________________
 // DECREMENT BY DIVISION
 
-// for (var counter = 4096; counter >= 1; counter /= 2) {
-//    console.log( counter )
-// }
+console.log("______________________________")
+console.log("DECREMENT BY DIVISION")
+console.log("______________________________")
 
+
+for (var counter = 4096; counter >= 1; counter /= 2) {
+   console.log( counter )
+}
+
+
+
+// ______________________________
 // ARRAY ITERATION
+console.log("______________________________")
+console.log("ARRAY ITERATION");
+console.log("______________________________")
 
 // var shoppingList = [
 // 'carrots',
@@ -35,7 +55,14 @@
 // ];
 // alert(shoppingList);
 // console.log( shoppingList[0] );
-// console.log(shoppingList[2] );
+// console.log( shoppingList[2] );
+
+
+
+
+// ______________________________
+//AMERICAN PRESIDENTS
+
 
 var americanPresidents = [
 	'George Washington',
@@ -48,12 +75,38 @@ var americanPresidents = [
 ];
 
 for (var i = 0; i < americanPresidents.length; i += 1) {
-	console.log(americanPresidents[i]);
+	console.log( "President #" + (i+1) + " was " + americanPresidents[i] );
 }
 
 
+// ______________________________
+// OBJECT ITERATION
 
+console.log("______________________________")
+console.log("OBJECT ITERATION");
+console.log("______________________________")
 
+var antSpecies = { //object
+  argentine: 1, //key: value pairs
+  army: 2,
+  bigHeaded: 3,
+  black: 4,
+  bull: 5,
+  carpenter: 6,
+  crazy: 7,
+  fire: 8,
+  glider: 9,
+  honeyPot: 10,
+  jackJumper: 11
+};
+
+for (var keys in antSpecies) {
+
+console.log(keys);
+console.log(antSpecies[keys])
+}
+
+console.log(antSpecies.bull);
 
 
 
